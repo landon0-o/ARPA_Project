@@ -1,0 +1,13 @@
+{
+    "Pump": {
+      "retract_speed": 2, in mm/revolution
+      "push_speed": 2.5,in mm/revolution
+      "travel_distance": 21, in mm
+      "reservoir_volume":353 in units/hundreth of milliter
+    },
+    "Patient": {
+      "height": 5.5,
+      "weight": 110,
+      "age": 16
+    }
+  }

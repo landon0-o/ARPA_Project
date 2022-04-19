@@ -1,0 +1,17 @@
+*------Ampy Upload Instructions------*
+
+
+directly in ternimal
+>>>export AMPY_PORT=/dev/cu.usbserial-0001
+>>>ampy --port /dev/cu.usbserial-0001 run -n file_name.py 
+delete -n if you need termminal output
+
+use this to put file_name.py as main.py on device
+ampy put file_name.py main.py 
+
+to get rid of main.py file, use:
+>>>screen /dev/cu.usbserial-0001 115200 
+to get to repl, then ctrl c to stop the program, and then:
+>>>import os
+>>>os.listdir()
+>>>os.remove("main.py")

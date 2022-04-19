@@ -1,0 +1,15 @@
+{
+  "Pump": {
+    "retract_speed": 2,
+    "push_speed": 0.5,
+    "distance_per_rev": 0.5,
+    "travel_distance": 21,
+    "reservoir_volume":353,
+    "piston_s_a": 0.176
+  },
+  "Patient": {
+    "height": 5.5,
+    "weight": 110,
+    "age": 16
+  }
+}
